@@ -8,7 +8,7 @@ Docker compose file for [docker-minecraft-server](https://github.com/itzg/docker
 * make sure the VERSION on the docker-compose configuration matches the required version for the mod
 * `docker compose up`
 
-The forge install in the docker container will download the mod jar files and put them into the mounted 'mods' folder.  Share the mods folder on the LAN to make it easier to set up additional clients.
+The forge install in the docker container will download the mod's jar files and put them into the mounted 'mods' folder.  Share the mods folder on the LAN to make it easier to set up additional clients.
 
 
 ## Setting up the client
