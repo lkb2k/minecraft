@@ -13,7 +13,8 @@ The forge install in the docker container will download the mod jar files and pu
 ## Setting up the client
 * download the correct version from https://files.minecraftforge.net
 * run the forge installer
-* copy the jar files from the 'mods' share into ~/Library/Application Support/minecraft/mods
+* copy the jar files from the 'mods' share into 
+  * `~/Library/Application Support/minecraft/mods`
 * run the launcher and select the installation you just created
 
 ### Troubleshooting
