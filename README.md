@@ -18,6 +18,13 @@ The forge install in the docker container will download the mod's jar files and 
   * `~/Library/Application Support/minecraft/mods`
 * run the launcher and select the installation you just created
 
+## Adding initial ops
+```
+docker exec -i minecraft rcon-cli
+```
+will give you an RCON prompt that you can use to set server and game parameters. 
+
+
 ### Troubleshooting
 Make sure the docker image you're using on the server is :java8-multiarch if you are running on an M1 Mac
 
