@@ -1,4 +1,5 @@
 # Minecraft Server
+Docker compose file for [docker-minecraft-server](https://github.com/itzg/docker-minecraft-server/blob/master/README.md) which is a docker image that will download the specified minecraft server version at startup, or the latest stable version if not specified.  This makes it pretty easy to run the exact server version that is compatible with the mod you want to use.
 
 ## Setting up mods on the server
 * Find the URL to the jar file from curseforge.  
